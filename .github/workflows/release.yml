@@ -19,7 +19,7 @@ jobs:
         uses: actions/setup-elixir@v1
         with:
           otp-version: 24.1.6
-          elixir-version: 1.11.2
+          elixir-version: 1.12.3
       - name: Export OTP_RELEASE
         run: echo "OTP_RELEASE=24.1.6" >> $GITHUB_ENV
       - name: Export ERLANG_SDK_HOME
